@@ -1,0 +1,150 @@
+html {
+    background-color: #F7E7DC;
+}
+
+main {
+    
+
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    
+    margin-top: 10%;
+}
+
+.infocont {
+   
+    background-color: #F7E7DC;
+    border-radius: 24px;
+    border-style: solid;
+    border-color: F7E7DC;
+    margin: auto;
+}
+
+button {
+    background-color: #405D72;
+    border: none;
+    color: #F7E7DC;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+    margin-left: 30%;
+    border-radius: 24px;
+    margin-bottom: 1%;
+}
+
+.infocont h1{
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+    color: #405D72;
+    margin: 3%;
+}
+
+.infocont h3{
+    font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #405D72;
+  margin-left: 3%;
+}
+
+nav{
+    background-color: #405D72;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+      color: #E2E2B6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10%;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    display: flex;
+    margin-left: 23px;
+    font-size: 27px;
+    margin: 31px;
+
+
+}
+
+nav img{
+    width: 15%;
+    margin: auto;
+}
+
+.container img{
+    background-color: #F7E7DC;
+    
+}
+
+footer li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+}
+
+footer img{
+    background-color: #F7E7DC;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+footer{
+    height: 2%;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    border-style: solid;
+    border-radius: 24px;
+    
+
+}
+
+footer h2{
+    color: #405D72;
+    background-color: #F7E7DC;
+    height: fit-content;
+    margin: auto;
+    margin-left: 0;
+}
+
+.infocont2 {
+    margin: 6%;
+    background-color: #F7E7DC;
+    width: fit-content;
+    color: #405D72;
+}
+
+button:hover{
+    background-color: #F5F7F8;
+    color: #405D72;
+}
+
+hr{
+    border: solid #405D72 2px;
+    width: 60%;
+}
